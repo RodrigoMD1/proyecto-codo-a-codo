@@ -3,71 +3,41 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/favicom/FAVICOM.png" />
-    <link rel="stylesheet" href="/assets/css/index/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="/assets/css/styleboton.css">
-    <link rel="stylesheet" href="http://icomoon.io/">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="assets/js/arriba.js"></script>
-    <script src="/assets/js/selection.json"></script>
     <title>pantalones</title>
 </head>
 
-<body>
+
+<body class="BodyGeneral">
 
     <header>
-        <span> <a href="/index.html"> </a>
-            <img src="/media/img/LOGO.png" alt="logo" width="180px">
-        </span>
-        <ul class=":nth-child() ocultar-div">
-            <li>
-                <a href="../index.html">QUIENES SOMOS</a>
-            </li>
-            <li>
-                <a href="../index.html">GALERIA</a>
-            </li>
-            <li>
-                <a href="./catalogo.html">CATALOGO</a>
-            </li>
+        <nav class="navbar navbar-expand-lg bg-none">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./img/bitlog.png" alt="logo" width="180px">
 
-            <li>
-                <a href="./contacto.html">CONTACTO</a>
-            </li>
-            <div class="theme">
-                <input type="radio" name="theme" value="ligth" />
-                <input type="radio" name="theme" value="dark" checked />
-            </div>
-        </ul>
+                </a>
 
-        <div class="ocultar-div1">
-            <button class="boton btn btn-success" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Menú</button>
+                <h1>TITULO</h1>
 
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
-                aria-labelledby="offcanvasRightLabel">
-                <div class="offcanvas-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <ul>
-                        <li>
-                            <a href="../index.html">QUIENES SOMOS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/servicios.html">Servicios</a>
                         </li>
-
-                        <li>
-                            <a href="../index.html">GALERIA</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/promociones.html">Promociones</a>
                         </li>
-
-                        <li>
-                            <a href="./catalogo.html">CATALOGO</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                         </li>
-
-                        <li>
-                            <a href="./contacto.html">CONTACTO</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/acercadenosotros.html">Acerca de Nosotros</a>
                         </li>
 
                     </ul>
@@ -82,106 +52,75 @@
     </header>
 
 
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <p>Carrusel de imagenes</p>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/fondomineriados.jpg.png" class="d-block w-100" alt="MineriaCrypto">
+            </div>
+            <div class="carousel-item active">
+                <img src="./img/pexels-olya-kobruseva-8358047.jpg" class="d-block w-100" alt="MineriaBitcoin">
+            </div>
+            <div class="carousel-item active">
+                <img src="./img/tarjeta-grafica.jpg.png" class="d-block w-100" alt="Tarjeta Grafica de Mineria">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
 
-
-
-    <main class="main-remeras">
-
+    <section>
         <h1>
             pantalones
         </h1>
-
-        <div class="card">
-            <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp" class="card-img-top" alt="Fissure in Sandstone"/>
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#!" class="btn btn-primary">Button</a>
-            </div>
-          </div>
-      
+    </section>
 
 
+    <div>
+        <h2>producto1</h2>
+    </div>
 
-    </main>
-    
-
-
-
+    <div>
+        <h2>producto2</h2>
+    </div>
+    <div>
+        <h2>producto3</h2>
+    </div>
+    <div>
+        <h2>producto4</h2>
+    </div>
 
 
 
-    
 
-    <footer class="text-center text-white" style="background-color: #4D455D;">
-        <!-- Grid container -->
-        <div class="container pt-4">
-          <!-- Section: Social media -->
-          <section class="mb-4">
-            <!-- Facebook -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fab fa-facebook-f"><h3 class="style-Footer">Facebook</h3></i
-            ></a>
-      
-            <!-- Twitter -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fab fa-twitter"><h3 class="style-Footer">X</h3></i
-            ></a>
-      
-            <!-- Google -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fab fa-google"><h3 class="style-Footer">Google</h3></i
-            ></a>
-      
-            <!-- Instagram -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fab fa-instagram"><h3 class="style-Footer">Instagram</h3></i
-            ></a>
-      
-            <!-- Linkedin -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fab fa-linkedin"><h3 class="style-Footer">Linkedin</h3></i
-            ></a>
-            <!-- Github -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fab fa-github"><h3 class="style-Footer">Github</h3></i
-            ></a>
-          </section>
-          <!-- Section: Social media -->
-        </div>
-        <!-- Grid container -->
-      
-        <!-- Copyright -->
-        <div class="text-center text-white p-3" style="background-color: #393445;">
-          © 2020 Copyright:
-          <a class="text-white" href="">BOUTIQUE FASHION DESING</a>
-        </div>
-        <!-- Copyright -->
-      </footer>
+
+
+    <div id="item-Footer">&nbsp;
+        <footer class="DiseñoTodoFooter">
+            <p>FOOTER</p>
+            <a href="#" class="fa fa-facebook">facebook</a>
+            <a href="#" class="fa fa-twitter">twitter</a>
+            <a href="#" class="fa fa-google-plus">google</a>
+            <a href="#" class="fa fa-youtube">youtube</a>
+            <a href="#" class="fa fa-linkedin">linkedin</a>
+        </footer>
+    </div>
 
 
 </body>
