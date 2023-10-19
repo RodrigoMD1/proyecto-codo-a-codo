@@ -51,6 +51,7 @@ header ul {
 @media screen and (max-width: 945px) {
     .ocultar-div{
         display:none;
+        
     }
 }
 
@@ -60,16 +61,7 @@ header ul {
         display:none;
     }
 }
-.offcanvas-body ul{
-    display: flex;
-    flex-direction: column;
-}
-div.offcanvas-body {
-background-color:  #4D455D;}
 
-div.offcanvas-header {
-    background-color: #F5E9CF;
-}
     
 /**** termina boton que aparece en resopnsibe para menu***/
 
@@ -118,3 +110,13 @@ li:nth-child(1){
     text-transform: none;
 }
 
+.offcanvas-body ul{
+    display: flex;
+    flex-direction: column;
+}
+div.offcanvas-body {
+background-color:  #4D455D;}
+
+div.offcanvas-header {
+    background-color: #F5E9CF;
+}

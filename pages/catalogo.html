@@ -6,41 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/favicom/FAVICOM.png" />
-    <link rel="stylesheet" href="/assets/css/index/style.css">
-    <link rel="stylesheet" href="/assets/css/catalogo/catalogo.style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="../assets/favicom/FAVICOM.png" />
+    <link rel="stylesheet" href="../assets/css/index/style.css">
+    <link rel="stylesheet" href="../assets/css/catalogo/catalogo.style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>BOUTIQUE FASHION DESIGN</title>
 </head>
 
 
 <body class="BodyGeneral">
-
+ 
     <header>
-        <span> <a href="/index.html">
-                <img src="/media/img/LOGO.png" alt="logo" width="180px">
+        <a class="tamano" href="https://wa.me/005491162412950" target="_blank"><img src="../assets/media/img/icons8-whatsapp.gif"></a> 
+
+        <span> <a href="../index.html">
+                <img src="../assets/media/img/LOGO.png" alt="logo" width="180px">
             </a> </span>
         <ul class=":nth-child() ocultar-div">
             <li>
-                <a href="/index.html#galeria#quienessomos">QUIENES SOMOS</a>
+                <a href="../index.html#galeria#quienessomos">QUIÉNES SOMOS</a>
             </li>
                        <li>
-                <a href="/index.html#galeria">GALERIA</a>
+                <a href="../index.html#galeria">GALERÍA</a>
             </li>
             <li>
-                <a href="/pages/contacto.html">CONTACTO</a>
+                <a href="../pages/contacto.html">CONTACTO</a>
             </li>
             <li>
-                <a href="/index.html">VOLVER AL INICIO</a>
+                <a href="../index.html">VOLVER AL INICIO</a>
                         </li>
-            <div class="theme">
-                <input type="radio" name="theme" value="ligth" />
-                <input type="radio" name="theme" value="dark" checked />
-            </div>
+       
         </ul>
          
             <div class="ocultar-div1">
-                <button class="boton btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                <button class="boton btn btn--blue" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Menú</button>
     
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
@@ -52,115 +52,84 @@
                         <ul>
                       
                             <li>
-                                <a href="/index.html#galeria#quienessomos">QUIENES SOMOS</a>
+                                <a href="../index.html#galeria#quienessomos">QUIÉNES SOMOS</a>
                             </li>
                            
                             <li>
-                                <a href="/index.html#galeria">GALERIA</a>
+                                <a href="../index.html#galeria">GALERÍA</a>
                             </li>
                             <li>
-                                <a href="/pages/contacto.html">CONTACTO</a>
+                                <a href="../pages/contacto.html">CONTACTO</a>
                             </li>
                             <li>
-                                <a href="/index.html">VOLVER AL INICIO</a>
-                            </li>
-                            <div class="theme">
-                                <input type="radio" name="theme" value="ligth" />
-                                <input type="radio" name="theme" value="dark" checked />
-                            </div>
-                          
-    
-                        </ul>
+                                <a href="../index.html">VOLVER AL INICIO</a>
+                            </li>                      
+                         </ul>
                     </div>
                 </div>
             </div>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-     
+          
         </header>
     <main>
         <section>
-            <h2>Remeras</h2>
-           
-            <a href="/pages/remeras.html"> <img src="/media/img/remeras.jpg" alt="remeraas" height="500"></a>
+            <div class="remeras">
+                <img src="../assets/media/img/remeras.jpg" alt="remeraas" >
+                <div class="textoremeras">
+                    <a href="./remeras.html">
+                        <h2>Remeras</h2>
+                    </a>
 
-            <a href="/pages/pantalones.html"> <img src="/media/img/pantalones.jpg" height="500" alt="pantalon"></a>
 
-            <h2>Pantalones</h2>
+                </div>
+            </div>
+            <div class="pantalones">
+                <img src="../assets/media/img/pantalones.jpg"  alt="pantalon">
+                <div class="textopantalones">
+                    <a href="./pantalones.html">
+                        <h2>Pantalones</h2>
+                    </a>
+                </div>
+            </div>
+
         </section>
     </main>
-   
 
 
-     
+
+
     <footer class="text-center text-white" style="background-color: #4D455D;">
         <!-- Grid container -->
         <div class="container pt-4">
-          <!-- Section: Social media -->
-          <section class="mb-4">
-            <!-- Facebook -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fab fa-facebook-f"><h3 class="style-Footer">Facebook</h3></i
-            ></a>
-      
-            <!-- Twitter -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fab fa-twitter"><h3 class="style-Footer">X</h3></i
-            ></a>
-      
-            <!-- Google -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fab fa-google"><h3 class="style-Footer">Google</h3></i
-            ></a>
-      
-            <!-- Instagram -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fab fa-instagram"><h3 class="style-Footer">Instagram</h3></i
-            ></a>
-      
-            <!-- Linkedin -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fab fa-linkedin"><h3 class="style-Footer">Linkedin</h3></i
-            ></a>
-            <!-- Github -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fab fa-github"><h3 class="style-Footer">Github</h3></i
-            ></a>
-          </section>
-          <!-- Section: Social media -->
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="http://www.facebook.com" role="button"
+                    data-mdb-ripple-color="dark" target="_blank"><img src="../assets/media/icons/icons-01.png" alt="icono1"><i class="fab fa-facebook-f">
+                    </i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1"  href="http://www.instagram.com"  role="button"
+                    data-mdb-ripple-color="dark" target="_blank"> <img src="../assets/media/icons/icons-02.png" alt="icono2"><i class="fab fa-instagram">
+                    </i></a>
+
+                <!-- Youtube -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="http://www.youtube.com"  role="button"
+                    data-mdb-ripple-color="dark" target="_blank"><img src="../assets/media/icons/icons-03.png" alt="icono3"><i class="fab fa-youtube">
+                    </i></a>
+               
+            </section>
+            <!-- Section: Social media -->
         </div>
         <!-- Grid container -->
-      
+
         <!-- Copyright -->
         <div class="text-center text-white p-3" style="background-color: #393445;">
-          © 2020 Copyright:
-          <a class="text-white" href="">BOUTIQUE FASHION DESING</a>
+            © 2023 Copyright:
+            <a class="text-white" href="">BOUTIQUE FASHION DESING</a>
         </div>
         <!-- Copyright -->
-      </footer>
+    </footer>
 
 </body>
 

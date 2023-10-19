@@ -11,7 +11,7 @@ section>.gallery {
 section>.gallery > img {
     margin: auto;
     grid-area: 1/1;
-    width: 30%;
+    width: 45%;
     aspect-ratio: 16/9;
     object-fit: cover;
     box-shadow: 0 0 4px #0007;
@@ -20,7 +20,19 @@ section>.gallery > img {
     border-radius: 15px;
     
 }
-
+@media screen and (max-width: 1200px) {
+    section>.gallery > img {
+        margin: auto;
+        grid-area: 1/1;
+        width: 85%;
+        aspect-ratio: 16/9;
+        object-fit: cover;
+        box-shadow: 0 0 4px #0007;
+        z-index: 2;
+        animation: slide var(--d) infinite, z-order var(--d) infinite steps(1);
+        border-radius: 15px;
+}
+}
 
 section>.gallery img:last-child {
     animation-name: slide, z-order-last;

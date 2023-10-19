@@ -1,0 +1,13 @@
+Nombre del Grupo: GRUPO 5
+Título del proyecto: BOUTIQUE FASHION DESIGNE
+Temática: Emprendimiento Textil y venta de remeras y pantalones.
+Link del TPO: (link)
+Link a carpeta de GitHub o similar con los archivos del TPO: (archivos)
+ API utilizada en el TPO : https://sheetdb.io/api/v1/wpoy08wqxzl4d u  otra
+Ubicación y descripción breve de la animación
+
+
+animación de logo de wsp, animación de subrayar navbar, animación en titulos "quienes somos y galería de fotos" con animación  (arrastre hacia derecha), animación de la galería de las fotos, animación de las imágenes de catalogo (flip), animación en items de contacto (lebel), animación en botón de contacto, título "contáctenos", los títulos de h2/Remeras/catalogo Y h2/pantaloness/catalogo (simil luces de neón), animación en los títulos de cada card.
+
+
+En comentario de entrega pondria pondria el netifly.

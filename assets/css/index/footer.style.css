@@ -12,3 +12,11 @@ footer {
     color: white;
     
 }
+
+img{
+    width: 45%
+}
+
+.text-center{
+font-family: var(--font-deco2);
+}
